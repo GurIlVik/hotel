@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    background: #ddd;
+}
+
+#divParents {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    position: absolute;
+    width: 800px;
+    height: auto;
+    left: 75px;
+    top: 75px;
+    background: rgb(212, 209, 163);
+    margin: 0;
+    padding: 0;
+}
+
+#divMessege {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 750px;
+    height: auto;
+    margin: 25px 25px 0px 25px;
+    padding: 0;
+}
+
+.Child1 {
+    border-top: 2px solid black;
+    width: 750px;
+    height: 100%;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.Child1 p {
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    margin: 0;
+}
+
+#divInputMessege {
+
+    width: 750px;
+    height: 200px;
+    left: 25px;
+    top: 0;
+    vertical-align: middle;
+    margin-top: 25px;
+}
+
+#button {
+    position: relative;
+    width: 720px;
+    background: #aaa;
+    left: 22px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 12pt;
+}
+
+#divInputMessege p {
+    margin-left: 25px;
+    display: inline-block;
+}
+
+#inputName,
+#inputMessege {
+    display: inline-block;
+    right: 10px;
+    width: 600px;
+}
+
+
+  /* код ко второй задачи */
+
+h2 {text-align: center;
+font-size: 16pt;}
+#inputName {
+    margin-left: 22px;
+}
+#newColor {
+    width : 275px;
+    height: auto;
+}
+#inputColor, #inputType, #inputCode {
+    width: 275px;
+}
+#buttonSave {
+    width: 275px;
+    color: #888;
+    height: auto;
+    margin-bottom: 30px;
+}
+.text {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+.nameText {
+    width: 75px;
+    height: auto;
+    margin: 0;
+}
+.errorText {
+    width: 200px;
+    height: auto;
+    text-align: right;
+    overflow: hidden;
+}
+.nameText p, .errorText p {
+    margin: 0;
+    padding: 0;
+}
+#allColors {
+    width : 800px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 20px;
+   
+}
+
+.color_text {
+    position: relative;
+    top: 15px;
+    left: 20px;
+    width: 200px;
+    height: 80px;
+    background-attachment: fixed;
+    background: linear-gradient(rgba(259, 259, 259, 0.25), rgba(259, 259, 259, 0.25));
+    text-align: center;
+}
+#button1 {
+    width: 275px;
+    background: #999;
+}
+#selcolor {
+    width: 275px;
+}
